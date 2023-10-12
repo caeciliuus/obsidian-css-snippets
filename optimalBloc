@@ -1,0 +1,27 @@
+cm-s-obsidian span.cm-quote {
+color: unset; 
+background: unset; 
+
+} 
+
+.HyperMD-quote { 
+color: var(--text-normal); 
+background: var(--attention4);
+border-left: 1px solid white; 
+border-right: 1px solid white !important; }
+
+.markdown-preview-view blockquote {
+  background: var(--attention4); 
+  border-radius: unset;
+  border: unset;
+  padding: 10px;
+  margin: unset;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-left: 1px solid white !important;
+  border-right: 1px solid white !important;
+  
+}
+
+.markdown-preview-view blockquote p {
+  margin: 0 10px;
