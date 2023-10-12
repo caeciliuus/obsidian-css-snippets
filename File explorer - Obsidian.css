@@ -1,5 +1,4 @@
-# File explorer - Obsidian
-```css
+
 /* condense line spacing on file explorer title list. also avoids character-level word breaks */
 .nav-file-title-content,
 .search-result-file-title,
@@ -162,10 +161,9 @@ body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator {
 .workspace-tab-container-inner {
   padding-left:30px;
 }
-```
 
-## Chest-of-drawers icon in nav tab - California Coast theme by mgmeyers
-```css
+
+
 /* Note: css variables do not work in embedded svgs, so
 I took the rgb equivalents of var(--text-accent) when active
 and of var(--text-faint) for not active */
@@ -229,10 +227,8 @@ and of var(--text-faint) for not active */
   > svg {
     display: none;
 }
-```
 
-## Nav titles
-```css
+
 /* Wrap long nav text */
 .nav-file-title, .nav-folder-title {
     white-space: normal;
@@ -249,10 +245,8 @@ and of var(--text-faint) for not active */
 .nav-file-title-content:hover {
   background-color: var(--base4);
 }
-```
 
-## Top tab container background color
-```css
+
 .theme-dark {
   --background1: rgb(51, 51, 51);
 }
@@ -282,11 +276,9 @@ and of var(--text-faint) for not active */
 .workspace-tabs {
   background-color: var(--background1);
 }
-```
 
-## Emojis in folder name
+
 /* 2 examples */
-```css
 .nav-folder-title[data-path="+inbox"] .nav-folder-title-content::before {
   content: "📥 ";
   font-size:1.3em;
@@ -296,22 +288,20 @@ and of var(--text-faint) for not active */
   content: "⚙️ ";
   font-size:1.3em;
 }
-```
 
-## Hide a folder
+
 Note: If you don’t know the data-path to put in the code below, you can open the developer with 
 CTRL/CMD+SHIFT+I and check the path. Beware, the data path only updates after a restart for newly file/folder.
-```css
+
 div[data-path='folder'], 
 div[data-path='folder'] + div.nav-folder-children 
 {
     display: none;
 }
-```
 
-# Hide a file
-```css
+
+
 .nav-file-title[data-path="file_path.md"] {
 	display: none;
 }
-```
+

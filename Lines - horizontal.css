@@ -1,5 +1,5 @@
 # Lines - horizontal
-```css
+
 /* Horizontal gradient line in Preview as per Obsidianite theme */
 .markdown-preview-view hr {
   margin-block-start: 4em;
@@ -42,4 +42,4 @@ div.markdown-preview-section hr {
   margin-block-start: 30px;
   margin-block-end: 40px;
 }
-```
+

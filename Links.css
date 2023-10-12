@@ -1,23 +1,23 @@
 # Links
 ## Change color
-```css
+
 /* Internal links */
 /* change colour in Preview */
 a.internal-link {
   color: var(--base2);
 }
-```
+
   
 ## Change colour in Edit
-```css
+
 .cm-s-obsidian span.cm-link,
 .cm-s-obsidian span.cm-url { /* PB added */
   color: #c6ceda;
 }
-```
+
 
 ## Change colour in Edit
-```css
+
 .cm-s-obsidian span.cm-hmd-internal-link {
   color: var(--base2);
 }
@@ -28,27 +28,27 @@ a.external-link {
   color: var(--base3);
   font-weight: 500;
 }
-```
+
 
 
 ## Change color intensity of unresolved links
-```css
+
 .markdown-preview-view .internal-link.is-unresolved {
   opacity: 0.8;
 }
-```
+
 
 ## Hide little square with arrow shown next to external link in Preview
-```css
+
 .external-link {
   background-image: none;
 /* This removes the space left over after the arrow is gone **/
   padding: 0;
 }
-```
+
 
 ## External link hover - view URL
-```css
+
 /* view URL in popup - courtesy of narand */
 a.external-link {
   position: relative;
@@ -103,4 +103,4 @@ a.external-link:hover:before {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-```
+

@@ -1,5 +1,4 @@
-# Check box
-```css
+
 /* checkbox alignment */
 .markdown-preview-view .task-list-item-checkbox {	
 	width: 15px;
@@ -96,4 +95,3 @@ input[type=checkbox]:checked {
 .markdown-preview-view .task-list-item-checkbox:checked {
   background-color: #68d0688f;
 }
-```

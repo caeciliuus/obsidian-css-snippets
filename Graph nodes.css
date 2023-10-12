@@ -1,5 +1,4 @@
-# Graph nodes
-```css
+
 /* to style the new nodes in the 0.9.1+ */
 .theme-light .graph-view.color-arrow {
 color: #5cc863;
@@ -38,4 +37,3 @@ Might work as well:
 .graph-view.color-line-highlight {
   color: rgb(var(--interactive-accent-rgb));
 }
-```

@@ -1,5 +1,4 @@
-# WYSIWYG
-```css
+
 /**************************************/
 /* 5. WYSIWYG: imitation in Edit mode */
 /**************************************/
@@ -165,4 +164,4 @@ div:not(.CodeMirror-activeline) > .CodeMirror-line span.cm-hashtag-end:before {
 .cm-s-obsidian .CodeMirror-linenumber:hover {
   opacity: 1;
 }
-```
+

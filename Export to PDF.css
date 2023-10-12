@@ -1,5 +1,4 @@
-# Export to PDF
-```css
+
 /* Line up "native" blockquotes with transcluded ones in PDF */
 @media print{.internal-embed{margin-left:-30px;}}
 
@@ -15,4 +14,4 @@
     page-break-inside: avoid;
   }
 }
-```
+

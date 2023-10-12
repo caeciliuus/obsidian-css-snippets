@@ -1,8 +1,3 @@
-# Block quote inline
-
-May be very useful to create block references to a certain paragraphs and formulas.
-
-```css
 /* Source by Murf: https://gist.github.com/GitMurf/bb68e9f48556b80d9a694eb0fd1742fe */
 /* INLINE BLOCK REFS v1.0 */
 :root {
@@ -63,4 +58,4 @@ May be very useful to create block references to a certain paragraphs and formul
 .markdown-preview-view span[src*="^"].internal-embed > .markdown-embed > .markdown-embed-content > .markdown-preview-view > .markdown-preview-sizer br {
     /*display: none;*/
 }
-```
+

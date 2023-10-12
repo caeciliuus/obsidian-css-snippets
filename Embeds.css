@@ -1,6 +1,6 @@
 # Embeds
 ## Transclusions
-```css
+
 /* Hide all H1 in transclusions .... */
 div[src*="#"].internal-embed .markdown-embed-content>.markdown-preview-view>div.markdown-preview-sizer>div.markdown-preview-section > h1,
 div[src*="#"].internal-embed .markdown-embed-content>.markdown-preview-view>div.markdown-preview-sizer>div.markdown-preview-section > h2,
@@ -21,18 +21,16 @@ div[src*="#"].internal-embed .markdown-embed-content>.markdown-preview-view>div.
 
   display:block;
 }
-```
 
-```css
+
 /* change the color of note title in the embed */
 .markdown-embed-title {
 	color: red; /*change color*/
 	display: none; /*remove*/
  }
- ``` 
+  
 
 ## TRANSCLUSION TWEAKS
-```css
 .markdown-embed-title {
 	font-family: sans-serif;
 	font-size: 10px;
@@ -106,11 +104,10 @@ svg.link {
 	overflow: hidden;
 	white-space: nowrap;
 }
-```
+
 
 ## Transclusions/clean-embeds
 ### Clean embeds on a per note basis
-```css
 /*
     clean-embeds.css snippet
 
@@ -231,10 +228,10 @@ svg.link {
     display: none;
   }
 }
-```
+
 
 ### Clean embeds on a vault-wide basis, alternative for Naked embeds below
-```css
+
 /*
     clean-embeds-all.css snippet
 
@@ -356,11 +353,10 @@ svg.link {
     display: none;
   }
 }
-```
+
 
 ## Naked embeds
-courtesy death_au
-```css
+
 .markdown-embed-title { display:none; }
 .markdown-preview-view .markdown-embed { border:none; padding:0; margin: 0; }
 .markdown-preview-view .markdown-embed-content { max-height: unset;}
@@ -394,18 +390,16 @@ Optional
 .markdown-embed:hover .markdown-embed-link svg {
   opacity:1;
 }
-```
 
-## Eliminate scrollbars in transclusions (from death-au)
-```css
+
+
 .markdown-preview-view .markdown-embed-content,
 .markdown-preview-view .markdown-embed-content>.markdown-preview-view {
   max-height: unset;
 }
-```
+
 
 ## Tranclusion pointing to header but leave out header, only show text below
-```css
 .internal-embed .markdown-embed h1,
 .internal-embed .markdown-embed h2,
 .internal-embed .markdown-embed h3,
@@ -414,15 +408,14 @@ Optional
 .internal-embed .markdown-embed h6 {
     display: none;
 }
-```
+
 
 ## Block references
-```css
 /* Indent embedded block reference */
 .internal-embed[src*="#^"] .markdown-embed {
   padding-left: 30px;
 }
-```
+
 
 https://discord.com/channels/686053708261228577/702656734631821413/773404255189073971
 
@@ -440,14 +433,13 @@ if you want to target embeds of a specific page, you could do
 
 you can use spaces. For example:
 
-```css
 .internal-embed[src="Lorum ipsum test"] {
     background-color: yellow;
 }
-```
+
 
 ## To get just 1 embed coloured, in this example the "Lorum ipsum test" embed is yellow:
-```css
+
 .internal-embed:not([src*="#"]):not([src*="^"]) {
     background-color: blue;
 }
@@ -455,19 +447,17 @@ you can use spaces. For example:
 .internal-embed[src="Lorum ipsum test"]:not([src*="#"]):not([src*="^"]) {
     background-color: yellow;
 }
-```
+
 
 ## Reduce gap between adjacent block embeds:
-```css
 /* Reduce gap between adjacent block embed */
 .markdown-preview-view .markdown-embed {
   margin-top: -20px;
   margin-bottom: -20px;
 }
-```
+
 
 ## Videos
-```css
 /* Embedded video */
 /* NOTE: ADD THE CODE BELOW TO YOUR NOTE OR A TEMPLATE
 /* REPLACE THE SECTION "https://......PASTE_ID" WITH THE VIDEO ID OF THE TO-BE-EMBEDDED VIDEO
@@ -487,4 +477,4 @@ you can use spaces. For example:
   width: 100%;
   height: 100%;
 }
-```
+

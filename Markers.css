@@ -1,5 +1,5 @@
 # Markers
-```css
+
 /* Mark a line break, trailing space, tab when in Edit mode */
 .cm-trailing-space-new-line, .cm-trailing-space-a, .cm-trailing-space-b, .cm-tab{
     font-size: 0;
@@ -15,4 +15,4 @@
 .cm-tab::before {
     content:'⟶'
 }
-```
+

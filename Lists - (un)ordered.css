@@ -1,6 +1,6 @@
 # Lists - (un)ordered
 
-```css
+
 /* Reduce indentation in bullet lists */
 ol {
     padding-inline-start: 18px;
@@ -27,7 +27,7 @@ ul ul::before { left: -11px; top: 0; bottom: 0; /* change "left:" value for alig
 /* Edit mode unordered list dash rendered as dot for WYSIWYG */
 /* I prefer "Turn -lists into bullets as you type as per Typora */
 /* Unordered lists: turn into bullets as you type, as per Typora */
-```css
+
 span.cm-formatting-list-ul {
   visibility: hidden !important;
 }
@@ -38,10 +38,10 @@ span.cm-formatting-list-ul:after {
   color: var(--accent); /* ITS theme; for Blue Topaz --text-normal */
   visibility: visible !important;
 }
-```
+
 
 ## Stylized lists
-```css
+
 /*From Gabroel - Obsidian #css-themes channel*/
 * {margin: 0; padding: 0; list-style: none;}
 ul li:not(.task-list-item) {
@@ -101,10 +101,10 @@ div.heading-collapse-indicator.collapse-indicator.collapse-icon:hover{
 div.collapsible-item-collapse.collapse-icon{
   color: var(--text-accent);
 }
-```
+
 
 ## Stylized lists - auto-adjust width & auto-counter
-```css
+
 /*From Gabroel - Obsidian #css-themes channel*/
 /*video demo https://discord.com/channels/686053708261228577/702656734631821413/784922140465692712 */
 
@@ -188,4 +188,4 @@ div.heading-collapse-indicator.collapse-indicator.collapse-icon:hover{
 .markdown-preview-section:not(.is-collapsed) svg.right-triangle{
   color: var(--text-accent);
 }
-```
+

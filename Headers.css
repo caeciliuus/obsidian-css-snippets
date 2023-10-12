@@ -1,5 +1,5 @@
 # Headers
-```css
+
 /* List styling (H1 numbering ONLY) for note content */
 
 /* initialize css counter */
@@ -17,27 +17,27 @@ body {
 h6 {
   display: none;
 }
-```
 
-```
+
+
 /* Selection the first H1 header of the Note */
 pre:nth-of-type(2).HyperMD-header.HyperMD-header-1 {
     color: red;
 }
-```
 
-```css
+
+
 /* Change just 1 particular header */
 /* Note: gap between 1st and 2nd line must be put in ! */
 <div style="color:red"></div>
-```
-```
 
-```
+
+
+
 
 OR put it in an html element with a class that changes the color
 
-```css
+
 .important {
     color: red;
 }
@@ -158,9 +158,9 @@ OR put it in an html element with a class that changes the color
   height: 1px;
   background: var(--text-accent); /* rgb(123, 108, 214); */
 }
-```
 
-```css
+
+
 
 /* Eliminate margin (gap, space) under headings - Preview mode only */
 /* H1 underlined too */
@@ -349,9 +349,9 @@ font-size: 0.6em;
   font-size: 13px;
   font-weight: bold;
 }
-```
 
-```css
+
+
 /* Automatically convert H1 headings to capitals in the Outline pane */
 .outline .tree-item-inner {
     text-transform: uppercase;
@@ -360,20 +360,20 @@ font-size: 0.6em;
 .outline .tree-item-children .tree-item-inner {
     text-transform: none;
 }
-```
+
 
 If you need to have H1 headings capitalized in the note text, use:
-```css
+
 /* Automatically convert H1 headings to capitals in text */
 .cm-header-1, .markdown-preview-view h1 {
     text-transform: uppercase;
 }
-```
+
 
 In Live Preview, header hashes are hidden if the line is not active.
 Some people prefer to keep them visible to know what level header they are dealing with.
 The code below is courtesy of @NothingIsLost on the Discord forum.
-```css
+
 .cm-line > span.cm-header-1:not(.cm-formatting):before { content: "# "; }
 .cm-line.cm-active > span.cm-header-1 > span:not(.cm-selection):before { content: "# "; }
 .cm-line > span.cm-header-1 ~ span.cm-header-1:not(.cm-formatting):before { content: ""; }
@@ -397,4 +397,4 @@ The code below is courtesy of @NothingIsLost on the Discord forum.
 .cm-line > span.cm-header-6:not(.cm-formatting):before { content: "###### "; }
 .cm-line.cm-active > span.cm-header-6 > span:not(.cm-selection):before { content: "###### "; }
 .cm-line > span.cm-header-6 ~ span.cm-header-6:not(.cm-formatting):before { content: ""; }
-```
+

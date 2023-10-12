@@ -1,12 +1,4 @@
-Based on [Dashboard++](https://github.com/TfTHacker/DashboardPlusPlus/blob/master/.obsidian/snippets/dashboard.css) by [TfT Hacker](https://github.com/TfTHacker/DashboardPlusPlus).
 
-[link to related article on Medium](https://medium.com/obsidian-observer/dashboard-a-simple-organization-and-navigation-method-for-obsidian-vaults-2b1982d023a0)
-
-Original css snippet have only supported lists and dataview lists.
-I wanted to also have mermaid diagrams, embeds and other stuff on my diagram, so changes were made.
-Done in Obsidian v1.4.3
-
-```css
 /* Updated 2023-08-20 */
 
 .dashboard {
@@ -109,4 +101,3 @@ div.markdown-preview-section > div > ul.has-list-bullet > li {
 .dashboard.markdown-preview-view .metadata-container {
   display: none !important;
 }
-```
